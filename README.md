@@ -10,4 +10,4 @@ Get a map using arucos in ROS Melodic
 5) Go to catkin_ws diretory and use the command $ catkin_make (This tutorial assumes that you have installed catkin)
 6) Use the command $ source devel/setup.bash
 7) Launch the pkg while DroidCam is open in your mobile $roslaunch aruco_malodic_mapping aruco_malodic_mapping.launch 
-8) the program is subscribed to the topic "/aruco/markers" and publish the topic "/aruco/pub_marker", this one is used by rviz to show the tf of the markers and create the map
+8) The program is subscribed to the topic "/aruco/markers" and publish the topic "/aruco/pub_marker", this one is used by rviz to show the tf of the markers and create the map
